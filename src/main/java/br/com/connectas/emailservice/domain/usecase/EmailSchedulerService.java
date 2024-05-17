@@ -1,19 +1,22 @@
-package br.com.connectas.emailservice.email;
+package br.com.connectas.emailservice.domain.usecase;
 
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.regex.Pattern;
 
+import br.com.connectas.emailservice.domain.entity.Email;
+import br.com.connectas.emailservice.adapter.out.repository.EmailRepository;
+import br.com.connectas.emailservice.adapter.out.interfaces.email.IEmailSchedulerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import br.com.connectas.emailservice.email.sender.ISender;
-import br.com.connectas.emailservice.filter.UserResolver;
-import br.com.connectas.emailservice.users.User;
-import br.com.connectas.emailservice.users.UserRepository;
+import br.com.connectas.emailservice.adapter.out.interfaces.email.sender.ISender;
+import br.com.connectas.emailservice.config.filter.UserResolver;
+import br.com.connectas.emailservice.domain.entity.users.User;
+import br.com.connectas.emailservice.adapter.out.repository.UserRepository;
 
 @Component
 @Primary

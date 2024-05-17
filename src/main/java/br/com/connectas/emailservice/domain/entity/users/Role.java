@@ -1,4 +1,4 @@
-package br.com.connectas.emailservice.users;
+package br.com.connectas.emailservice.domain.entity.users;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

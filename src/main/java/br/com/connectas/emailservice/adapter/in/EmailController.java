@@ -1,7 +1,9 @@
-package br.com.connectas.emailservice.email;
+package br.com.connectas.emailservice.adapter.in;
 
 import java.util.Objects;
 
+import br.com.connectas.emailservice.domain.entity.Email;
+import br.com.connectas.emailservice.adapter.out.interfaces.email.IEmailSchedulerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

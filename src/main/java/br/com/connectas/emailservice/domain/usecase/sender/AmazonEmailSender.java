@@ -1,7 +1,8 @@
-package br.com.connectas.emailservice.email.sender;
+package br.com.connectas.emailservice.domain.usecase.sender;
 
 import java.util.Objects;
 
+import br.com.connectas.emailservice.adapter.out.interfaces.email.sender.ISender;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 

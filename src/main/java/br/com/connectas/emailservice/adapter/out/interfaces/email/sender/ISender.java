@@ -1,4 +1,4 @@
-package br.com.connectas.emailservice.email.sender;
+package br.com.connectas.emailservice.adapter.out.interfaces.email.sender;
 
 import org.springframework.stereotype.Component;
 

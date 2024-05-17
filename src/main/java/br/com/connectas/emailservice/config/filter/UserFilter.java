@@ -1,4 +1,4 @@
-package br.com.connectas.emailservice.filter;
+package br.com.connectas.emailservice.config.filter;
 
 import java.io.IOException;
 
@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 
-import br.com.connectas.emailservice.users.UserRepository;
+import br.com.connectas.emailservice.adapter.out.repository.UserRepository;
 
 @Component
 public class UserFilter implements Filter {
