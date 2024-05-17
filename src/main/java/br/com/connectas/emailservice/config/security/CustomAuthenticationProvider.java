@@ -1,4 +1,4 @@
-package br.com.connectas.emailservice.security;
+package br.com.connectas.emailservice.config.security;
 
 import java.util.ArrayList;
 
@@ -9,8 +9,8 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 
-import br.com.connectas.emailservice.users.User;
-import br.com.connectas.emailservice.users.UserRepository;
+import br.com.connectas.emailservice.domain.entity.users.User;
+import br.com.connectas.emailservice.adapter.out.repository.UserRepository;
 
 public class CustomAuthenticationProvider implements AuthenticationProvider{
 	

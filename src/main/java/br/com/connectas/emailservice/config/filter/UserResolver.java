@@ -1,4 +1,4 @@
-package br.com.connectas.emailservice.filter;
+package br.com.connectas.emailservice.config.filter;
 
 public class UserResolver {
 

@@ -1,4 +1,4 @@
-package br.com.connectas.emailservice.email;
+package br.com.connectas.emailservice.domain.entity;
 
 import javax.persistence.*;
 

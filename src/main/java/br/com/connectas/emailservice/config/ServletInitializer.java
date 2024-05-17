@@ -1,5 +1,6 @@
-package br.com.connectas.emailservice;
+package br.com.connectas.emailservice.config;
 
+import br.com.connectas.emailservice.EmailServiceApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 

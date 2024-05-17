@@ -1,4 +1,4 @@
-package br.com.connectas.emailservice.ping;
+package br.com.connectas.emailservice.adapter.in.ping;
 
 import java.time.LocalDate;
 
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.connectas.emailservice.filter.UserResolver;
+import br.com.connectas.emailservice.config.filter.UserResolver;
 
 @RestController
 @RequestMapping("/api/v1/ping")

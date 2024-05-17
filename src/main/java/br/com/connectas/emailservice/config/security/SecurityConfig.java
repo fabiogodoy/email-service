@@ -1,4 +1,4 @@
-package br.com.connectas.emailservice.security;
+package br.com.connectas.emailservice.config.security;
 
 import java.util.Arrays;
 
